@@ -1,0 +1,10 @@
+.col{
+    border-color: gray;
+    border-style: solid;
+    padding: 0;
+    height: 1rem;
+    border-width: 0.1px;
+}
+.row{
+    margin: 0;
+}
