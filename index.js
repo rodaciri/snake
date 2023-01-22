@@ -1,9 +1,12 @@
 //If you want to use jQuery, you have to use everything with jQuery.
 var cont = $("#cont");
 
-let size= 8
+let size = 8;
 cont.html(deployGrid(size));
 cont.css("width",size+"rem");
+
+let a = new Snake(size);
+a.renderSnake();
 
 
 function deployGrid(size) {
@@ -20,3 +23,6 @@ function renderCol(size) {
     }
     return cols;
 }
+
+
+
