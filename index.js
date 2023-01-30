@@ -1,7 +1,7 @@
 //If you want to use jQuery, you have to use everything with jQuery.
 var cont = $("#cont");
 
-let size = 4;
+let size = 10;
 cont.html(deployGrid(size));
 cont.css("width", size + "rem");
 
